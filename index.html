@@ -19,6 +19,15 @@
             var arrayMult= [
                 [1,2],[3,4],[5,6]
             ];
+
+
+            console.log("Hello World");
+            console.log(number,"  ",floatNumber,"   ",name);
+            console.log(array);
+            console.log(array2);
+            console.log(array3);
+            console.log(arrayMult);
+
             //operaões aritimeticas
 
             var n1 = 5;
@@ -88,7 +97,7 @@
             console.log(result);
 
 
-            //
+            //objetos
 
             var person ={
                 nome: "maria",
@@ -106,14 +115,28 @@
             var nome = person["nome"]; 
             var rua = person["endereco"]["rua"];
 
+            //funcoes
+            function printMessage(mensagem){
+                console.log("Minha mensagem", mensagem);
+            }
+
+            function calculate(n1 , n2){
+                return n1*n2;
+            }
+
+            var print = function (value, printMessage){
+                printMessage(value)
+            }
+
+            printMessage();
+            console.log(calculate(2,3))
+            console.log(print)
 
 
-            console.log("Hello World");
-            console.log(number,"  ",floatNumber,"   ",name);
-            console.log(array);
-            console.log(array2);
-            console.log(array3);
-            console.log(arrayMult);
+            for(i = 0;i < 5 ;i ++){
+                console.log(i);
+            }
+            
 
 
         </script>        
