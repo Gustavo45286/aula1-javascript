@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Extension Visual Code: Live Server-->
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <script>
+            //variaveis
+            var number =5;
+            var floatNumber =6.9;
+            var name = "joão";
+            //arrays
+            var array = [1,2,3,4,5];
+            var array2 = ["a","b","c"];
+            var array3 = [1,"a",2,"b"];
+
+            var arrayMult= [
+                [1,2],[3,4],[5,6]
+            ];
+            //operaões aritimeticas
+
+            var n1 = 5;
+            var n2 = 10;
+            var r1 = n1+n2;
+            var r2 = n1 - n2;
+            var r3 = n1 * n2;
+            var r4 = n2 / n1;
+            var r5 = n2 % n1;
+            var resultado = "10" + 5;
+
+            console.log(r1, r2,r3,r4,r5);
+            console.log(resultado);
+
+
+            //condicoes 
+            var age = 15;
+            if(age== 15){
+                console.log("idade é 15");
+            }
+
+            var id = '10';
+            //verificade a tipagem e igual e se os valores sao iguais
+            if(id === 10){
+                console.log("id é 10");
+            }
+
+            //com !== verifica se a tipagem e diferente e se os valores tambem sao diferentes
+            if(id !=10){
+                console.log("a idade e diferente de 10");
+            }
+
+            //id maior ou igual a 10 e id menor ou igual a 20 ou idade igual a 1
+            if(id>= 10 && id <=20 || age ==1){
+                console.log("id entre 10 e 20");
+            }
+
+
+            var myVar = false;
+            var potato;
+            var var2 = null;
+            var pudim = 0;
+            var var3 = false;
+
+            console.log(potato);
+            console.log(var2);
+
+
+
+            if(pudim && potato){
+                console.log("verdade");
+            } else if(!var3){
+                console.log("falso");
+            }else{
+                console.log("outro caso");
+            }
+
+
+
+            //
+            var name = "joao";
+            var text = (name === "joao") ? "joao e maria": "nao tem joao";
+            console.log(text);
+
+            var n1 = 5;
+            var result = (n1>= 10) ? 10: 0;
+            console.log(result);
+
+
+            console.log("Hello World");
+            console.log(number,"  ",floatNumber,"   ",name);
+            console.log(array);
+            console.log(array2);
+            console.log(array3);
+            console.log(arrayMult);
+
+
+        </script>        
+    </body>
+</html>
