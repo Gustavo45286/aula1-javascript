@@ -88,6 +88,26 @@
             console.log(result);
 
 
+            //
+
+            var person ={
+                nome: "maria",
+                sexo: "feminino",
+                idade: 20,
+                endereco: {
+                    rua: "rua vinte e quatro",
+                    numero: 23,
+                    referencias: ["asca","asda"]
+                }
+            }
+
+            console.log(person.name,"  ", person.idade, "   ", person.endereco.rua,"  ",person.endereco.referencias[1] );
+            var propriedade ="endereco";
+            var nome = person["nome"]; 
+            var rua = person["endereco"]["rua"];
+
+
+
             console.log("Hello World");
             console.log(number,"  ",floatNumber,"   ",name);
             console.log(array);
